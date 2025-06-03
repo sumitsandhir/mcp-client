@@ -23,9 +23,31 @@ To set up the project locally, follow these steps:
    npm install
    ```
 
-4. Run the development server:
+**Create and Activate a Virtual Environment**:
+
+On macOS/Linux:
    ```bash
-   npm run dev
+   python3 -m venv venv
+   source venv/bin/activate
    ```
+
+    On Windows:
+```bash
+   python -m venv venv
+   .\venv\Scripts\activate
+   ```
+
+2. **Install Python Dependencies** (if any):
+   Make sure to install required packages listed in `requirements.txt` (if available):
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the Application**:
+   Execute the Python application:
+   ```bash
+   python app.py
+   ```
+
 
 ---
